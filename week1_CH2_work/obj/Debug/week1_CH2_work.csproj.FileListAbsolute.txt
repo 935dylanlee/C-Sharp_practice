@@ -1,0 +1,7 @@
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\bin\Debug\week1_CH2_work.exe.config
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\bin\Debug\week1_CH2_work.exe
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\bin\Debug\week1_CH2_work.pdb
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\obj\Debug\week1_CH2_work.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\obj\Debug\week1_CH2_work.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\obj\Debug\week1_CH2_work.exe
+C:\Users\USER\Desktop\c#\week1_CH2_work\week1_CH2_work\obj\Debug\week1_CH2_work.pdb
