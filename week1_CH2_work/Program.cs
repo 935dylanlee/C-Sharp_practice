@@ -231,33 +231,33 @@ namespace week1_CH2_work
 
             //這裡是補充2
 
-            //Console.Write("請輸入身高：");
-            //double heightCm = Convert.ToDouble(Console.ReadLine());
-            //double height = heightCm / 100; // 將公分轉換為公尺 , 或是一開始限制輸入公尺
-            //Console.Write("請輸入體重：");
-            //double weight = Convert.ToDouble(Console.ReadLine());
+            Console.Write("請輸入身高（公分）：");
+            double heightCm = Convert.ToDouble(Console.ReadLine());
+            double height = heightCm / 100; // 將公分轉換為公尺
+            Console.Write("請輸入體重（公斤）：");
+            double weight = Convert.ToDouble(Console.ReadLine());
 
-            //double bmi = weight / (height * height);
-            //Console.WriteLine($"你的BMI是: {bmi}");
+            double bmi = weight / (height * height);
+            Console.WriteLine($"你的BMI是: {bmi:F2}"); // 顯示到小數點後兩位
 
-            //if (bmi < 18.5)
-            //{
-            //    Console.WriteLine("你的體重過輕");
-            //}
-            //else if (bmi >= 18.5 && bmi < 24.9)
-            //{
-            //    Console.WriteLine("你的體重正常");
-            //}
-            //else if (bmi >= 25 && bmi < 29.9)
-            //{
-            //    Console.WriteLine("你的體重過重");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("你的體重肥胖");
-            //}
+            if (bmi < 18.5)
+            {
+                Console.WriteLine("你的體重過輕");
+            }
+            else if (bmi < 24.9) // 不需要再次檢查 >= 18.5
+            {
+                Console.WriteLine("你的體重正常");
+            }
+            else if (bmi < 29.9) // 不需要再次檢查 >= 25
+            {
+                Console.WriteLine("你的體重過重");
+            }
+            else
+            {
+                Console.WriteLine("你的體重肥胖");
+            }
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
             //這裡是補充3
 
@@ -356,30 +356,30 @@ namespace week1_CH2_work
 
             //這裡是switch改寫：輸入一個學生的分數，輸出該成績級別
 
-            Console.Write("請輸入學生的分數：");
-            int score = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("請輸入學生的分數：");
+            //int score = Convert.ToInt32(Console.ReadLine());
 
             // 使用 switch 語句判斷成績級別
-            switch (score / 10)
-            {
-                case 10:
-                case 9:
-                    Console.WriteLine("成績級別：A");
-                    break;
-                case 8:
-                    Console.WriteLine("成績級別：B");
-                    break;
-                case 7:
-                    Console.WriteLine("成績級別：C");
-                    break;
-                case 6:
-                    Console.WriteLine("成績級別：D");
-                    break;
-                default:
-                    Console.WriteLine("成績級別：F");
-                    break;
-            }
-            Console.ReadKey();
+            //    switch (score / 10)
+            //    {
+            //        case 10:
+            //        case 9:
+            //            Console.WriteLine("成績級別：A");
+            //            break;
+            //        case 8:
+            //            Console.WriteLine("成績級別：B");
+            //            break;
+            //        case 7:
+            //            Console.WriteLine("成績級別：C");
+            //            break;
+            //        case 6:
+            //            Console.WriteLine("成績級別：D");
+            //            break;
+            //        default:
+            //            Console.WriteLine("成績級別：F");
+            //            break;
+            //    }
+            //Console.ReadKey();
         }
     }
 }
